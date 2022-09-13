@@ -5,34 +5,117 @@
 }
 
 body{
-    font-family: cursive;
+    font-family: sans-serif;
+    color: white;
 
 }
 
+/* ! start header */
 .header{
     background-color: rgb(255, 58, 67);
     height: 100vh;
     width: 100%;
-    background-image: radial-gradient( #00000085 50% , #0000008f 50%) , url(../Pic/netfilix/TR-en-20220905-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-image:linear-gradient(0deg,rgba(0,0,0,.89) 0,transparent 10%,rgba(0,0,0,.99)), url(../Pic/netfilix/TR-en-20220905-popsignuptwoweeks-perspective_alpha_website_small.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    border-bottom: 7px solid #222222;
 }
 .container{
     /* background-color: yellow; */
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
     height: 100vh;
 }
 .navbar{
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+.logo{
+    height: 25px;
+    width: 110px;
 }
 .header__link{
 
 }
 .lang{
+    margin-right: 1rem;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+    padding: 0.28rem 0rem;
+    color: white;
+    font-size: 0.7rem;
+    /* border-radius: 0.1rem; */
 
 }
-.sign-in{
+.lang option{
+    background-color: #ffffff;
+    border: none;
+    color: #212121;
+}
+select {
+    font-family: 'FontAwesome', 'sans-serif';
+  }
 
+.sign-in{
+    border: none;
+    font-family: sans-serif;
+    border-radius: 0.1rem;
+    background-color: #E50914;
+    padding: 0.3rem 0.7rem;
+    color: white;
+    font-size: 0.7rem;
+}
+/* ! header content */
+
+.header-content{
+    text-align: center;
+    margin-top: 5rem;
+}
+.header-title{
+    margin-bottom: 1rem;
+}
+.color-text{
+    color: #E50914;
+}
+.sub-title{
+    font-weight: normal;
+    margin-bottom: 1.5rem;
+}
+.header-text{
+    margin-bottom: 1rem;
+    font-size: 0.75rem;
+    font-weight: normal;
+}
+.search-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.search-input{
+    border-radius: 0.2rem 0 0 0.2rem;
+    border: none;
+    flex-basis: 35%;
+    padding: 0.85rem 0.4rem;
+    text-align: left;
+    outline: none;
+    
+
+}
+.search-link{
+    border-radius: 0 0.2rem 0.2rem 0;
+    border: none;
+    padding: 0.8rem 2.5rem;
+    background-color: #E50914;
+    color: white;
+    font-size: 0.8rem;
+
+}
+
+.fa{
+    margin-left: 0.2rem;
+    font-size: 1rem !important;
 }

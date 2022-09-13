@@ -6,18 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../p2-full/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
     <header class="header">
         <div class="container">
             <nav class="navbar">
-                <img src="../Pic/netfilix/svgexport-1.png" alt="" class="logo">
+                <img src="../Pic/netfilix/svgexport-1.svg" alt="" class="logo">
                 <div class="header__link">
-                    <button class="lang">English</button>
+                    <select class="lang">
+                        <option value="English">English</option>
+                        <option value="Turkish">Turkish</option>
+                        <option value="Spanish">Spanish</option>
+                    </select>
                     <button class="sign-in">sign in</button>
                 </div>
             </nav>
+            <div class="header-content">
+                <h1 class="header-title">
+                    Unlimited <span class="color-text">movies</span>, TV <br> shows, and more.
+                </h1>
+                <h4 class="sub-title">
+                    Watch anywhere. Cancel anytime.
+                </h4>
+                <h5 class="header-text">
+                    Ready to watch? Enter your email to create or restart your membership.
+                </h5>
+                <div class="search-box">
+                    <input type="search" name="" placeholder="Email address" class="search-input" id="">
+                    <button class="search-link">Get Started <i class="fa fa-angle-right	"></i></button>
+                </div>
+            </div>
         </div>
     </header>
     <script src="./app.js"></script>
