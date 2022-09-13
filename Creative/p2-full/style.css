@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: cursive;
+
+}
+
+.header{
+    background-color: rgb(255, 58, 67);
+    height: 100vh;
+    width: 100%;
+    background-image: radial-gradient( #00000085 50% , #0000008f 50%) , url(../Pic/netfilix/TR-en-20220905-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    /* background-color: yellow; */
+    width: 95%;
+    margin: 0 auto;
+    height: 100vh;
+}
+.navbar{
+
+}
+.header__link{
+
+}
+.lang{
+
+}
+.sign-in{
+
+}
